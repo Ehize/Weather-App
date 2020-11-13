@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Nunito", san-serif;
+    background: url("images/cloud.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    font-family: sans-serif;
+ }
+
+.input {
+	text-align: center;
+	margin: 100px 0;
+}
+
+input[type="text"] {
+	height: 50px;
+	width: 600px;
+	background: #e7e7e7;
+	font-weight: bold;
+	font-family: "Nunito", san-serif;
+	font-size: 20px;
+	border: none;
+	border-radius: 2px;
+	padding: 10px 10px;
+}
+
+input[type="submit"]{
+	height: 50px;
+	width: 100px;
+	background: #e7e7e7;
+	font-weight: bold;
+	font-family: "Nunito", san-serif;
+	font-size: 20px;
+	border: none;
+	border-radius: 2px;
+}
+
+.display {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 34px;
+    background: url("images/weather-today.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 12rem;
+}
+
+@media only screen and (max-width: 640px) {
+input[type="text"] {
+	width: auto;
+}
+
+.display {
+	width: auto;
+}
+
+
+}
